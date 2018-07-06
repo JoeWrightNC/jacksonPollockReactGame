@@ -4,15 +4,11 @@
 }
 
 .gameMessage {
-  text-align: center;
-  max-width: 100%;
-  align-content: center
+  width: 100%;
 }
 
 .gameMessage p {
-  font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
-  font-weight: 500;
   background-color: black;
   color: white;
   padding: 20px 0;
@@ -20,17 +16,14 @@
 }
 
 .gameScores {
-  text-align: center;
-  max-width: 100%;
-  align-content: center;
-  margin-bottom: 10px;
+  width: 100%;
+  margin-bottom: 5vh;
 }
 .gameScores p {
-  font-family: 'Montserrat', sans-serif;
+  font-size:2em;
   text-transform: uppercase;
-  font-weight: 500;
-  background-color:#e7283a;
+  background-color:#487eb0;
   color: white;
-  padding: 20px 0;
-  margin-bottom: 25px;
+  padding: 5vh;
+  margin-bottom: 5vh;
 }
